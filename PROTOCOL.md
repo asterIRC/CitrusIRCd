@@ -89,3 +89,17 @@ Status level definitions:
 
 Signed stati are possible too.
 * -0010 - -0019: Banned (IRC mode +B 0010:n!u@h) 
+
+N: A user introduced himself, or a server introduced a user to another server
+
+Syntax:
+```
+<Server ID> N <Nick> <Username> <Modemask> :<ircname>
+```
+
+RLY: A server sent this to me on the condition that I send it to you
+
+Syntax:
+```
+<Server/User ID> RLY <bang!path> <Identifier> <IRC Command> <IRC Command Arguments>
+```
